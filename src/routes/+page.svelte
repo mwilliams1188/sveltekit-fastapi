@@ -8,7 +8,7 @@
 	});
 
 	const fetchData = async () => {
-		const res = await fetch('/api/hello');
+		const res = await fetch('/api');
 		const json = await res.json();
 		message = json.message;
 	};
