@@ -3,7 +3,9 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev",
+		"fastapi-dev": "pip3 install -r requirements.txt && python3 -m uvicorn api.index:app --reload",
+		"sveltekit-dev": "vite dev",
+		"dev": "concurrently \"npm run sveltekit-dev\" \"npm run fastapi-dev\"",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -37,6 +39,7 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^5.4.7",
+		"concurrently": "^9.1.0",
 		"hono": "^4.6.11"
 	}
 }
