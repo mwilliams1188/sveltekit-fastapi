@@ -2,22 +2,23 @@ This is a [FastAPI](https://fastapi.tiangolo.com/) + [SvelteKit](https://svelte.
 
 ## Getting Started
 
-First, run the development server:
+To run the example locally you need to:
 
-```bash
-npm run dev
-# or
-pnpm run dev
+1. `pnpm install` to install the required Node dependencies.
+2. `virtualenv venv` to create a virtual environment.
+3. `source venv/bin/activate` to activate the virtual environment.
+4. `pip install -r requirements.txt` to install the required Python dependencies.
+5. `pnpm dev` to launch the development server.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-# or
-pnpm run dev -- --open
-```
+You can start editing the API by modifying `api/index.py` and learn more by taking a look to the [API documentation](https://fastapi.tiangolo.com/).
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+## Demo
 
-You can start editing the API by modifying `app/api/[...route]/route.tsx` and learn more by taking a look to the [API documentation](https://fastapi.tiangolo.com/).
+https://sveltekit-fastapi.vercel.app/
+
+## Deploy on Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmwilliams1188%2Fhono-sveltekit)
 
 ## Learn More
 
@@ -27,7 +28,3 @@ To learn more about Hono and SvelteKit, take a look at the following resources:
 - [Learn SvelteKit](https://svelte.dev/tutorial/kit/introducing-sveltekit) - an interactive SvelteKit tutorial.
 
 You can check out [the SvelteKit GitHub repository](https://github.com/sveltejs/kit/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Hono + SvelteKit app is to use the [Vercel Platform](https://vercel.com/templates?search=hono).
