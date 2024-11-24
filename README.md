@@ -28,6 +28,6 @@ To learn more about Hono and SvelteKit, take a look at the following resources:
 
 - [SvelteKit Documentation](https://svelte.dev/docs/kit/introduction) - learn about SvelteKit features and API.
 - [Learn SvelteKit](https://svelte.dev/tutorial/kit/introducing-sveltekit) - an interactive SvelteKit tutorial.
-- [FastAPI documentation](https://fastapi.tiangolo.com/).
+- [FastAPI documentation](https://fastapi.tiangolo.com/) - learn about FastAPI features and API
 
-You can check out [the SvelteKit GitHub repository](https://github.com/sveltejs/kit/) - your feedback and contributions are welcome!
+You can check out the [SvelteKit](https://github.com/sveltejs/kit/) and [FastAPI](https://github.com/tiangolo/fastapi) GitHub repositories - your feedback and contributions are welcome!
